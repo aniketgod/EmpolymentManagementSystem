@@ -1,0 +1,17 @@
+CREATE TABLE [dbo].[employDetails] (
+    [Id]            INT            NOT NULL,
+    [firstName]     NCHAR (10)     NOT NULL,
+    [lastName]      NCHAR (10)     NOT NULL,
+    [address]       NVARCHAR (50)  NOT NULL,
+    [dob]           DATE           NOT NULL,
+    [doj]           DATE           NOT NULL,
+    [projectAssign] NVARCHAR (50)  NOT NULL,
+    [salary]        NUMERIC (10)   NOT NULL,
+    [designation]   NVARCHAR (MAX) NOT NULL,
+    [workUnder]     NVARCHAR (MAX) NOT NULL,
+    [password]      NVARCHAR (50)  NOT NULL,
+    [loginStatus]   BIT            NOT NULL,
+    [attendance]    NUMERIC (10)   NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+

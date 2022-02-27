@@ -1,0 +1,2 @@
+﻿INSERT INTO employDetails(Id, firstName, lastName, address, dob,doj, projectAssign, salary, designation,workUnder, password,loginStatus, attendance)
+VALUES (102, 'Michale ','Jack', 'Texas', '01-07-1990', '01-08-2016','Software development', 80000, 'Engineer', 'NA', 12345678,0, 1);

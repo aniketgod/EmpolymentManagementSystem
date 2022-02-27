@@ -1,0 +1,2 @@
+INSERT INTO employDetails (Id, firstName, lastName, address, dob,doj, projectAssign, salary, designation,workUnder, password,loginStatus, attendance)
+VALUES (101, 'Sohan', 'Tiwari', 'Punjab', '01-05-1990', '01-04-2016','web development', 20000, 'Engineer', 'NA', 12345678,0, 1);
